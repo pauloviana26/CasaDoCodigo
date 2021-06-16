@@ -1,0 +1,16 @@
+C:\Users\paulo\Documents\Alura\CasaDoCodigo\Aulas\Aula1\CasaDoCodigo\bin\Debug\netcoreapp2.0\appsettings.Development.json
+C:\Users\paulo\Documents\Alura\CasaDoCodigo\Aulas\Aula1\CasaDoCodigo\bin\Debug\netcoreapp2.0\appsettings.json
+C:\Users\paulo\Documents\Alura\CasaDoCodigo\Aulas\Aula1\CasaDoCodigo\bin\Debug\netcoreapp2.0\bundleconfig.json
+C:\Users\paulo\Documents\Alura\CasaDoCodigo\Aulas\Aula1\CasaDoCodigo\bin\Debug\netcoreapp2.0\CasaDoCodigo.deps.json
+C:\Users\paulo\Documents\Alura\CasaDoCodigo\Aulas\Aula1\CasaDoCodigo\bin\Debug\netcoreapp2.0\CasaDoCodigo.runtimeconfig.json
+C:\Users\paulo\Documents\Alura\CasaDoCodigo\Aulas\Aula1\CasaDoCodigo\bin\Debug\netcoreapp2.0\CasaDoCodigo.runtimeconfig.dev.json
+C:\Users\paulo\Documents\Alura\CasaDoCodigo\Aulas\Aula1\CasaDoCodigo\bin\Debug\netcoreapp2.0\CasaDoCodigo.dll
+C:\Users\paulo\Documents\Alura\CasaDoCodigo\Aulas\Aula1\CasaDoCodigo\bin\Debug\netcoreapp2.0\CasaDoCodigo.pdb
+C:\Users\paulo\Documents\Alura\CasaDoCodigo\Aulas\Aula1\CasaDoCodigo\obj\Debug\netcoreapp2.0\CasaDoCodigo.csproj.AssemblyReference.cache
+C:\Users\paulo\Documents\Alura\CasaDoCodigo\Aulas\Aula1\CasaDoCodigo\obj\Debug\netcoreapp2.0\CasaDoCodigo.AssemblyInfoInputs.cache
+C:\Users\paulo\Documents\Alura\CasaDoCodigo\Aulas\Aula1\CasaDoCodigo\obj\Debug\netcoreapp2.0\CasaDoCodigo.AssemblyInfo.cs
+C:\Users\paulo\Documents\Alura\CasaDoCodigo\Aulas\Aula1\CasaDoCodigo\obj\Debug\netcoreapp2.0\CasaDoCodigo.csproj.CoreCompileInputs.cache
+C:\Users\paulo\Documents\Alura\CasaDoCodigo\Aulas\Aula1\CasaDoCodigo\obj\Debug\netcoreapp2.0\CasaDoCodigo.dll
+C:\Users\paulo\Documents\Alura\CasaDoCodigo\Aulas\Aula1\CasaDoCodigo\obj\Debug\netcoreapp2.0\CasaDoCodigo.pdb
+C:\Users\paulo\Documents\Alura\CasaDoCodigo\Aulas\Aula1\CasaDoCodigo\obj\Debug\netcoreapp2.0\CasaDoCodigo.genruntimeconfig.cache
+C:\Users\paulo\Documents\Alura\CasaDoCodigo\Aulas\Aula1\CasaDoCodigo\bin\Debug\netcoreapp2.0\livros.json
