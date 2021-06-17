@@ -43,36 +43,58 @@ namespace CasaDoCodigo.Models
         }
 
         public virtual Pedido Pedido { get; set; }
-        [Required]
+        [MinLength(4, ErrorMessage = "Nome deve ter no mínimo 5 caracteres")]
+        [MaxLength(50, ErrorMessage = "Nome deve ter no máximo 50 caracteres")]
+        [Required(ErrorMessage = "O campo nome é obrigatório")]
         public string Nome { get; set; } = "";
-        [Required]
+        [Required(ErrorMessage = "O campo email é obrigatório")]
+        [EmailAddress(ErrorMessage = "Email inválido")]
         public string Email { get; set; } = "";
-        [Required]
+        [Required(ErrorMessage = "O campo telefone é obrigatório")]
         public string Telefone { get; set; } = "";
-        [Required]
+        [Required(ErrorMessage = "O campo endereço é obrigatório")]
         public string Endereco { get; set; } = "";
-        [Required]
         public string Complemento { get; set; } = "";
-        [Required]
+        [Required(ErrorMessage = "O campo bairro é obrigatório")]
         public string Bairro { get; set; } = "";
-        [Required]
+        [Required(ErrorMessage = "O campo município é obrigatório")]
         public string Municipio { get; set; } = "";
-        [Required]
+        [Required(ErrorMessage = "O campo uf é obrigatório")]
         public string UF { get; set; } = "";
-        [Required]
+        [Required(ErrorMessage = "O campo cep é obrigatório")]
         public string CEP { get; set; } = "";
+
+        internal void Update(Cadastro novoCadastro)
+        {
+            this.Bairro = novoCadastro.Bairro;
+            this.CEP = novoCadastro.CEP;
+            this.Complemento = novoCadastro.Complemento;
+            this.Email = novoCadastro.Email;
+            this.Endereco = novoCadastro.Endereco;
+            this.Municipio = novoCadastro.Municipio;
+            this.Nome = novoCadastro.Nome;
+            this.Telefone = novoCadastro.Telefone;
+            this.UF = novoCadastro.UF;
+        }
     }
 
+    [DataContract]
     public class ItemPedido : BaseModel
-    {   
+    {
         [Required]
+        [DataMember]
         public Pedido Pedido { get; private set; }
         [Required]
+        [DataMember]
         public Produto Produto { get; private set; }
         [Required]
+        [DataMember]
         public int Quantidade { get; private set; }
         [Required]
+        [DataMember]
         public decimal PrecoUnitario { get; private set; }
+        [DataMember]
+        public decimal Subtotal => Quantidade * PrecoUnitario;
 
         public ItemPedido()
         {
@@ -85,6 +107,11 @@ namespace CasaDoCodigo.Models
             Produto = produto;
             Quantidade = quantidade;
             PrecoUnitario = precoUnitario;
+        }
+
+        internal void AtualizaQuantidade(int quantidade)
+        {
+            Quantidade = quantidade;
         }
     }
 
